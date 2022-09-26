@@ -1,0 +1,86 @@
+ul {
+    list-style-type: none;
+    
+  }
+  
+  nav{
+    background-color: gray;
+    /* width: 100%; */
+    padding: 10px;
+  }
+
+  
+nav li{
+    display: inline;
+    padding: 20px; 
+  }
+  
+nav li:hover {
+      box-shadow: 0 0 3px black;
+  }
+
+ nav a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+  }
+ nav a:hover{
+    color: cyan;
+  } 
+  
+ 
+  header{
+    
+    height: 500px;
+    background-image: url(online.webp);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 50px;
+  }
+.header>h2{
+    font-size: 50px;
+    padding: 10px 20px ;
+}
+
+button{
+    color: white;
+    background-color: gray;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px ;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btns a{
+  color: white;
+  text-decoration: none;
+  padding: 10px ;
+  font-size: 16px;
+}
+
+.btns :first-child a{
+  color: red;
+}
+
+.btns :last-child a{
+  color: green;
+}
+
+.anchors a:link{
+  color: burlywood
+}
+.anchors a:visited{
+  color: green;
+}
+.anchors a:hover{
+  background-color: blue;
+}
+.anchors a:active{
+  color: palevioletred;
+}
